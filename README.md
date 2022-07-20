@@ -10,7 +10,7 @@ TCP is a reliable protocol that guarantees that the data remain intact and arriv
 
 - The Server creates two kinds of threads to handle the requests. The **communication threads** that are responsible for each client and the **worker threads** that send the respective files.
 
-![client]()
+![ServerClient](https://user-images.githubusercontent.com/73662635/180067338-e6df7da1-c5e4-4f0c-89e2-a787c2d01608.png)
 
 ## Data Server
 
