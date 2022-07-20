@@ -31,7 +31,7 @@ The code for the client is in the [remoteClient.cpp](Remote_Client/remoteClient.
 - On the client side the server IP, port number and directory that is requested from the server is given as an argument. 
 - A socket is created to connect to the server and the request is sent. 
 - Then, for each file of the directory it reads from the socket the file path, metadata and the file itself. Using this information it replicates locally the same folder structure.
-- If a file already exists locally it gets deleted and replaced with the new file sent from the server.
+- If a file already exists locally, then it gets deleted and replaced with the new file sent from the server.
 
 ## Compilation and Execution
 
